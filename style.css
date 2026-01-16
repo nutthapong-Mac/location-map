@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+#btnLocate {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 999;
+  padding: 14px 18px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  background: #0078d4;
+  color: white;
+}
+
+#info {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
+}

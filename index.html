@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>Location Verification</title>
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- MAP -->
+  <div id="map"></div>
+
+  <!-- Floating Button -->
+  <button id="btnLocate">📍 ยืนยันพิกัด</button>
+
+  <!-- Info Panel -->
+  <div id="info">
+    <div>📏 ระยะห่าง: <span id="distance">-</span> เมตร</div>
+    <div>สถานะ: <span id="status">-</span></div>
+  </div>
+
+  <!-- Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
